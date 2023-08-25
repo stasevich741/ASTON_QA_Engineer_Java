@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="353ac4a7-a49e-4889-b56c-e663490bf0a4" name="Changes" comment="allure reports">
-      <change afterPath="$PROJECT_DIR$/allure-homework/allure-homework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-homework/browsers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-homework/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-homework/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-homework/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-homework/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-homework/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-homework/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/SelenideTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/StepsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="353ac4a7-a49e-4889-b56c-e663490bf0a4" name="Changes" comment="simple test for issue search">
+      <change afterPath="$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/AnnotationStepsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/WebStepsMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/aqa_course/allure/SelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/aqa_course/allure/SelenideTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-homework/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/allure-homework/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/SelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/SelenideTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/StepsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/StepsLambdaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/aqa_course/allure/StepsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/aqa_course/allure/StepsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +68,7 @@
         <entry key="$PROJECT_DIR$" value="files" />
       </map>
     </option>
+    <option name="RECENT_COMMON_BRANCH" value="master" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/allure-homework" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -99,7 +94,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "dev",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "corretto-11",
     "last_opened_file_path": "C:/IdeaAquaProjects/aqa_course",
@@ -132,6 +127,30 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.allure-homework [allureServe]">
+    <configuration name="AnnotationStepsTest.testAnnotatedStep" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/allure-homework" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.allurehomework.AnnotationStepsTest.testAnnotatedStep&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="SelenideTest.testIssueName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -180,10 +199,10 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SelenideTest.testIssueSearch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StepsLambdaTest.testLambdaSteps" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/allure-homework" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
@@ -193,7 +212,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.example.aqa_course.allure.SelenideTest.testIssueSearch&quot;" />
+            <option value="&quot;com.example.allurehomework.StepsLambdaTest.testLambdaSteps&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -204,7 +223,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StepsTest.testAnnotatedStep" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StepsTest.testAnnotatedStep (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -217,55 +236,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;allure.StepsTest.testAnnotatedStep&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="StepsTest.testAnnotatedStep" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;allure.StepsTest.testAnnotatedStep&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="StepsTest.testLambdaStep" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;allure.StepsTest.testLambdaStep&quot;" />
+            <option value="&quot;com.example.aqa_course.allure.StepsTest.testAnnotatedStep&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -298,79 +269,13 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="aqa_course [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="allureReport" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="aqa_course [allureServe] (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="allureServe" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="aqa_course [allureServe] (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="allureServe" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.allure-homework [allureServe]" />
+        <item itemvalue="Gradle.AnnotationStepsTest.testAnnotatedStep" />
+        <item itemvalue="Gradle.StepsTest.testAnnotatedStep (1)" />
+        <item itemvalue="Gradle.StepsLambdaTest.testLambdaSteps" />
         <item itemvalue="Gradle.SelenideTest.testIssueName" />
-        <item itemvalue="Gradle.SelenideTest.testIssueSearch" />
-        <item itemvalue="Gradle.StepsTest.testAnnotatedStep" />
-        <item itemvalue="Gradle.aqa_course [allureServe] (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -423,7 +328,10 @@
       <workItem from="1692810585908" duration="4769000" />
       <workItem from="1692815841815" duration="1194000" />
       <workItem from="1692818347481" duration="115000" />
-      <workItem from="1692873396504" duration="12498000" />
+      <workItem from="1692873396504" duration="15826000" />
+      <workItem from="1692904191869" duration="183000" />
+      <workItem from="1692907535994" duration="1436000" />
+      <workItem from="1692988508296" duration="503000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -593,7 +501,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692880981469</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="simple test for issue search">
+      <option name="closed" value="true" />
+      <created>1692898788055</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1692898788055</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,7 +543,8 @@
     <MESSAGE value="add upload test" />
     <MESSAGE value="allure" />
     <MESSAGE value="allure reports" />
-    <option name="LAST_COMMIT_MESSAGE" value="allure reports" />
+    <MESSAGE value="simple test for issue search" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple test for issue search" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
