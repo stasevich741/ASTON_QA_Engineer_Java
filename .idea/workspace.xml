@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="353ac4a7-a49e-4889-b56c-e663490bf0a4" name="Changes" comment="simple test for issue search">
-      <change afterPath="$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/AnnotationStepsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/WebStepsMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-homework/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/allure-homework/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/SelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/SelenideTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/StepsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/StepsLambdaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/aqa_course/allure/StepsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/aqa_course/allure/StepsTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="353ac4a7-a49e-4889-b56c-e663490bf0a4" name="Changes" comment="test for issue search with allure steps and attachment" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -331,7 +321,7 @@
       <workItem from="1692873396504" duration="15826000" />
       <workItem from="1692904191869" duration="183000" />
       <workItem from="1692907535994" duration="1436000" />
-      <workItem from="1692988508296" duration="503000" />
+      <workItem from="1692988508296" duration="1240000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -509,7 +499,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692898788055</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="test for issue search with allure steps and attachment">
+      <option name="closed" value="true" />
+      <created>1692989110201</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1692989110201</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +542,8 @@
     <MESSAGE value="allure" />
     <MESSAGE value="allure reports" />
     <MESSAGE value="simple test for issue search" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple test for issue search" />
+    <MESSAGE value="test for issue search with allure steps and attachment" />
+    <option name="LAST_COMMIT_MESSAGE" value="test for issue search with allure steps and attachment" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
