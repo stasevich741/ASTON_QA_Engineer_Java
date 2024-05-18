@@ -11,6 +11,5 @@ public class CompareUtils {
         } else {
             System.out.println("a < b");
         }
-
     }
 }
