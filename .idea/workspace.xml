@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="353ac4a7-a49e-4889-b56c-e663490bf0a4" name="Changes" comment="test for issue search with allure steps and attachment" />
+    <list default="true" id="518eeea5-ef69-4408-9e11-127fb0155286" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/aqa_course/allure/AttachmentsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/aqa_course/allure/LabelsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/aqa_course/allure/SelenideTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/aqa_course/allure/StepsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/aqa_course/allure/WebSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,500 +27,88 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
-    <projectState path="$PROJECT_DIR$/allure-homework">
-      <ProjectState />
-    </projectState>
-  </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/src/test/java/allure">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/allure-homework">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand />
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="стасевич" />
-      </list>
-    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="files" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
-    <option name="RECENT_COMMON_BRANCH" value="master" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/allure-homework" />
-    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;stasevich741&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/stasevich741/aqa_course.git&quot;,
+    &quot;accountId&quot;: &quot;10193de5-7e70-45d1-865e-b2c04a09213a&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: -1
+  &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2Qmp91F32STlaUkmrwjf8oHeKCj" />
+  <component name="ProjectId" id="2gdIsdsQS0pK6r6y9nW78y9j1Ur" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="abbreviatePackageNames" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "Gradle.aqa_course [:Main.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "dev",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-11",
-    "last_opened_file_path": "C:/IdeaAquaProjects/aqa_course",
+    "git-widget-placeholder": "Lesson__4",
+    "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
-    "vue.rearranger.settings.migration": "true"
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.example.allurehomework" />
-      <recent name="tests" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\IdeaAquaProjects\aqa_course\src\test\resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\IdeaAquaProjects\aqa_course\src\test\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="allure" />
-      <recent name="tests" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Gradle.allure-homework [allureServe]">
-    <configuration name="AnnotationStepsTest.testAnnotatedStep" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/allure-homework" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.example.allurehomework.AnnotationStepsTest.testAnnotatedStep&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SelenideTest.testIssueName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/allure-homework" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.example.allurehomework.SelenideTest.testIssueName&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SelenideTest.testIssueSearch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.example.aqa_course.allure.SelenideTest.testIssueSearch&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="StepsLambdaTest.testLambdaSteps" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/allure-homework" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.example.allurehomework.StepsLambdaTest.testLambdaSteps&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="StepsTest.testAnnotatedStep (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.example.aqa_course.allure.StepsTest.testAnnotatedStep&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="allure-homework [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/allure-homework" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="allureServe" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.astondevs.aqa_course.Main" />
+      <module name="aqa_course.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.astondevs.aqa_course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.allure-homework [allureServe]" />
-        <item itemvalue="Gradle.AnnotationStepsTest.testAnnotatedStep" />
-        <item itemvalue="Gradle.StepsTest.testAnnotatedStep (1)" />
-        <item itemvalue="Gradle.StepsLambdaTest.testLambdaSteps" />
-        <item itemvalue="Gradle.SelenideTest.testIssueName" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SeleniumInternalSettingsState">
-    <option name="lastFrameworkName" value="Selenide" />
-    <option name="lastLanguageId" value="JAVA" />
-    <option name="lastUrl" value="https://github.com/search?q=eroshenkoam%2Fallure-example&amp;type=repositories" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="353ac4a7-a49e-4889-b56c-e663490bf0a4" name="Changes" comment="" />
-      <created>1685968458987</created>
+      <changelist id="518eeea5-ef69-4408-9e11-127fb0155286" name="Changes" comment="" />
+      <created>1716021246262</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1685968458987</updated>
-      <workItem from="1685968460271" duration="9841000" />
-      <workItem from="1685984328057" duration="570000" />
-      <workItem from="1685985083470" duration="1180000" />
-      <workItem from="1686040981199" duration="3965000" />
-      <workItem from="1686059351185" duration="1343000" />
-      <workItem from="1686066531467" duration="1062000" />
-      <workItem from="1686067912511" duration="6721000" />
-      <workItem from="1686156945119" duration="1749000" />
-      <workItem from="1686251746651" duration="726000" />
-      <workItem from="1686253624172" duration="748000" />
-      <workItem from="1686837204994" duration="5379000" />
-      <workItem from="1686902851762" duration="3743000" />
-      <workItem from="1687015902137" duration="1142000" />
-      <workItem from="1687024549533" duration="6531000" />
-      <workItem from="1687089189822" duration="5727000" />
-      <workItem from="1687187145508" duration="5712000" />
-      <workItem from="1687273490080" duration="5740000" />
-      <workItem from="1687285264384" duration="3556000" />
-      <workItem from="1687288978763" duration="110000" />
-      <workItem from="1687289331043" duration="326000" />
-      <workItem from="1687291203028" duration="728000" />
-      <workItem from="1687291979615" duration="3633000" />
-      <workItem from="1687342067968" duration="11025000" />
-      <workItem from="1687455591667" duration="1859000" />
-      <workItem from="1688389521674" duration="946000" />
-      <workItem from="1689950944321" duration="649000" />
-      <workItem from="1691344767686" duration="75000" />
-      <workItem from="1691772499834" duration="2401000" />
-      <workItem from="1692093783078" duration="10471000" />
-      <workItem from="1692387410063" duration="24000" />
-      <workItem from="1692799001145" duration="45000" />
-      <workItem from="1692801349387" duration="6286000" />
-      <workItem from="1692808750161" duration="1533000" />
-      <workItem from="1692810585908" duration="4769000" />
-      <workItem from="1692815841815" duration="1194000" />
-      <workItem from="1692818347481" duration="115000" />
-      <workItem from="1692873396504" duration="15826000" />
-      <workItem from="1692904191869" duration="183000" />
-      <workItem from="1692907535994" duration="1436000" />
-      <workItem from="1692988508296" duration="1240000" />
+      <updated>1716021246262</updated>
     </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1685968866657</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1685968866657</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add class">
-      <option name="closed" value="true" />
-      <created>1685969511821</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1685969511821</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add 1 test">
-      <option name="closed" value="true" />
-      <created>1685977365426</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1685977365426</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add 2 test">
-      <option name="closed" value="true" />
-      <created>1686065851306</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1686065851306</updated>
-    </task>
-    <task id="LOCAL-00005" summary="?">
-      <option name="closed" value="true" />
-      <created>1686066090241</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1686066090241</updated>
-    </task>
-    <task id="LOCAL-00006" summary="snippets">
-      <option name="closed" value="true" />
-      <created>1686072938531</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1686072938531</updated>
-    </task>
-    <task id="LOCAL-00007" summary="snippets">
-      <option name="closed" value="true" />
-      <created>1686077714100</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1686077714100</updated>
-    </task>
-    <task id="LOCAL-00008" summary="snippets">
-      <option name="closed" value="true" />
-      <created>1686856329493</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1686856329493</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add registration test">
-      <option name="closed" value="true" />
-      <created>1687090621283</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1687090621283</updated>
-    </task>
-    <task id="LOCAL-00010" summary="starting pageObject (1 var)">
-      <option name="closed" value="true" />
-      <created>1687196718851</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1687196718852</updated>
-    </task>
-    <task id="LOCAL-00011" summary="starting refactor">
-      <option name="closed" value="true" />
-      <created>1687197747690</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1687197747690</updated>
-    </task>
-    <task id="LOCAL-00012" summary="pageobject">
-      <option name="closed" value="true" />
-      <created>1687275453151</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1687275453151</updated>
-    </task>
-    <task id="LOCAL-00013" summary="annotations and csv (testData)">
-      <option name="closed" value="true" />
-      <created>1687293606174</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1687293606174</updated>
-    </task>
-    <task id="LOCAL-00014" summary="work with files">
-      <option name="closed" value="true" />
-      <created>1687298514424</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1687298514424</updated>
-    </task>
-    <task id="LOCAL-00015" summary="add download test">
-      <option name="closed" value="true" />
-      <created>1687345707440</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1687345707440</updated>
-    </task>
-    <task id="LOCAL-00016" summary="add upload test">
-      <option name="closed" value="true" />
-      <created>1687347295368</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1687347295368</updated>
-    </task>
-    <task id="LOCAL-00017" summary="add upload test">
-      <option name="closed" value="true" />
-      <created>1687347319772</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1687347319772</updated>
-    </task>
-    <task id="LOCAL-00018" summary="allure">
-      <option name="closed" value="true" />
-      <created>1692102414118</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1692102414118</updated>
-    </task>
-    <task id="LOCAL-00019" summary="allure reports">
-      <option name="closed" value="true" />
-      <created>1692106193499</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1692106193499</updated>
-    </task>
-    <task id="LOCAL-00020" summary="allure reports">
-      <option name="closed" value="true" />
-      <created>1692802911372</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1692802911372</updated>
-    </task>
-    <task id="LOCAL-00021" summary="allure reports">
-      <option name="closed" value="true" />
-      <created>1692880981469</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1692880981469</updated>
-    </task>
-    <task id="LOCAL-00022" summary="simple test for issue search">
-      <option name="closed" value="true" />
-      <created>1692898788055</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1692898788055</updated>
-    </task>
-    <task id="LOCAL-00023" summary="test for issue search with allure steps and attachment">
-      <option name="closed" value="true" />
-      <created>1692989110201</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1692989110201</updated>
-    </task>
-    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,32 +124,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
-    <MESSAGE value="add class" />
-    <MESSAGE value="add 1 test" />
-    <MESSAGE value="add 2 test" />
-    <MESSAGE value="?" />
-    <MESSAGE value="snippets" />
-    <MESSAGE value="add registration test" />
-    <MESSAGE value="starting pageObject (1 var)" />
-    <MESSAGE value="starting refactor" />
-    <MESSAGE value="pageobject" />
-    <MESSAGE value="annotations and csv (testData)" />
-    <MESSAGE value="work with files" />
-    <MESSAGE value="add download test" />
-    <MESSAGE value="add upload test" />
-    <MESSAGE value="allure" />
-    <MESSAGE value="allure reports" />
-    <MESSAGE value="simple test for issue search" />
-    <MESSAGE value="test for issue search with allure steps and attachment" />
-    <option name="LAST_COMMIT_MESSAGE" value="test for issue search with allure steps and attachment" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

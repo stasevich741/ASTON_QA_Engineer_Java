@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/SelenideTest.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/allure-homework/src/test/java/com/example/allurehomework/StepsLambdaTest.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/test/java/allure/AttachmentsTest.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/test/java/allure/StepsTest.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/test/java/allure/WebSteps.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/test/java/junit_test/SelenideTest.java" charset="UTF-8" />
-    <file url="PROJECT" charset="windows-1251" />
+  <component name="Encoding">
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
