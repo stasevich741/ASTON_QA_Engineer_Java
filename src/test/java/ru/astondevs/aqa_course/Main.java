@@ -20,13 +20,10 @@ public class Main {
         MathUtils.checkPositiveOrNegative(5); //6
         System.out.println(MathUtils.checkIsYearLeap(2024)); //9
 
-
         ArrayUtils.invertArray(); //10
         ArrayUtils.fillArrayWithNumbers(); //11
         ArrayUtils.multiplyLessSixByTwo(); //12
         ArrayUtils.fillArrayByOnes(); //13
         System.out.println(Arrays.toString(ArrayUtils.arrayWithIntValue(3, 7))); //14
-
-
     }
 }

@@ -46,5 +46,4 @@ public class ArrayUtils {
         }
         System.out.println(Arrays.toString(arrayToFill));
     }
-
 }
