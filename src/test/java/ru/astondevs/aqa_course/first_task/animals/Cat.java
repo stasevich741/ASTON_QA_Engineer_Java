@@ -13,7 +13,7 @@ public class Cat extends Animal {
 
     public void eatFromBowl(BowlForFood bowlForFood, int foodToEat) {
         if (bowlForFood.getFoodAmount() >= foodToEat) {
-            System.out.println("cat cat ate the food");
+            System.out.println("cat ate the food");
             satiety = true;
         } else {
             System.out.println("cat did not eat");

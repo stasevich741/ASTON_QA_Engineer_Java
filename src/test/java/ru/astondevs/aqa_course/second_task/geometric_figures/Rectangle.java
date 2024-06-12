@@ -11,7 +11,6 @@ public class Rectangle extends AbstractFigure {
         this.height = height;
     }
 
-
     @Override
     public int getArea() {
         return length * height;
