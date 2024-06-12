@@ -9,10 +9,10 @@ public class Main {
 
         Circle circle = new Circle("red", "white", 12);
         Rectangle rectangle = new Rectangle("black", "yellow", 15, 22);
-        Triangle triangle = new Triangle("purple", "green", 3, 6, 9);
+        Triangle triangle = new Triangle("purple", "green", 8, 6, 9);
 
-        circle.printInfo();
-        rectangle.printInfo();
-        triangle.printInfo();
+        circle.printInfo(); //area: 452 perimeter: 75 background color: red border color: white
+        rectangle.printInfo(); //area: 330 perimeter: 74 background color: black border color: yellow
+        triangle.printInfo(); //area: 18 perimeter: 23 background color: purple border color: green
     }
 }

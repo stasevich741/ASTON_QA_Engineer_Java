@@ -16,7 +16,7 @@ public class Triangle extends AbstractFigure {
     @Override
     public int getArea() {
         int halfPerimeter = (length + height + width) / 2;
-        return (int) Math.sqrt(halfPerimeter * (halfPerimeter - length) * (halfPerimeter - halfPerimeter) * (halfPerimeter - width));
+        return (int) Math.sqrt(halfPerimeter * (halfPerimeter - length) * (halfPerimeter - height) * (halfPerimeter - width));
     }
 
     @Override
