@@ -12,8 +12,8 @@ public interface Figure {
 
     default void printInfo() {
         System.out.println("area: " + getArea()
-                + " perimeter: " + getPerimeter()
-                + " background color: " + getBackgroundColor()
-                + " border color: " + getBorderColor());
+                + ", perimeter: " + getPerimeter()
+                + ", background color: " + getBackgroundColor()
+                + ", border color: " + getBorderColor());
     }
 }
