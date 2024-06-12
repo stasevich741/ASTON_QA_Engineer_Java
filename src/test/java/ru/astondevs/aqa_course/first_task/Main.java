@@ -32,6 +32,5 @@ public class Main {
             cat.eatFromBowl(bowl, 9);
             System.out.println(cat.satiety);
         }
-
     }
 }
