@@ -1,6 +1,5 @@
 package ru.astondevs.aqa_course.first_task;
 
-import ru.astondevs.aqa_course.first_task.animals.Animal;
 import ru.astondevs.aqa_course.first_task.animals.Cat;
 import ru.astondevs.aqa_course.first_task.animals.Dog;
 import ru.astondevs.aqa_course.first_task.food.BowlForFood;
@@ -24,7 +23,8 @@ public class Main {
         tom.run(150);  //cat ran 150 meters
         tom.swim(100); //cat can't swim
 
-        BowlForFood bowl = new BowlForFood(10);
+        BowlForFood bowl = new BowlForFood(1);
+        bowl.addFood(15);
 
         Cat[] catsArray = {tom, spot, jerry};
 
@@ -32,5 +32,6 @@ public class Main {
             cat.eatFromBowl(bowl, 9);
             System.out.println(cat.satiety);
         }
+
     }
 }
