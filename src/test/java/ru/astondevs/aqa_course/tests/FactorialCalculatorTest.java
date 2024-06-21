@@ -5,11 +5,10 @@ import ru.astondevs.aqa_course.FactorialCalculator;
 
 import java.math.BigInteger;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class FactorialCalculatorTest {
-
 
     @Test(description ="factorial for 5" )
     void positiveFactorialTest() {
