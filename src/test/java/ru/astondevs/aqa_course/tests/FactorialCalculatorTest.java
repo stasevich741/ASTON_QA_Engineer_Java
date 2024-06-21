@@ -10,18 +10,25 @@ import static org.testng.Assert.assertThrows;
 
 public class FactorialCalculatorTest {
 
-    @Test
+
+    @Test(description ="factorial for 5" )
     void positiveFactorialTest() {
-        assertEquals(FactorialCalculator.calculateFactorial(5), BigInteger.valueOf(120), "factorial for 5");
+        assertEquals(FactorialCalculator.calculateFactorial(5), BigInteger.valueOf(120));
     }
 
-    @Test
-    void FactorialByOneTest() {
-        assertEquals(FactorialCalculator.calculateFactorial(1), BigInteger.ZERO, "factorial for 5");
+    @Test(description ="factorial for 1" )
+    void FactorialForOneTest() {
+        assertEquals(FactorialCalculator.calculateFactorial(1), BigInteger.ONE);
     }
 
-    @Test
+    @Test(description = "factorial for 0")
+    void FactorialForZeroTest() {
+        assertEquals(FactorialCalculator.calculateFactorial(0), BigInteger.ONE);
+    }
+
+
+    @Test(description = "throws exception")
     void throwIllegalArgumentFactorialTest() {
-        assertThrows(IllegalArgumentException.class, () -> FactorialCalculator.calculateFactorial(-1));
+        assertThrows( IllegalArgumentException.class, () -> FactorialCalculator.calculateFactorial(-1));
     }
 }
