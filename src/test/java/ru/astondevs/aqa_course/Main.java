@@ -1,53 +1,32 @@
 package ru.astondevs.aqa_course;
 
-import ru.astondevs.aqa_course.exceptions.MyArrayDataException;
-import ru.astondevs.aqa_course.exceptions.MyArraySizeException;
-import ru.astondevs.aqa_course.utils.ArrayUtils;
+import ru.astondevs.aqa_course.first_task.CollectionUtils;
+import ru.astondevs.aqa_course.second_task.PhoneBook;
 
 public class Main {
+
     public static void main(String[] args) {
 
-        String[][] array1 = new String[4][4];
-        String[][] array2 = new String[4][5];
-
-        String[][] array3 = {
-                {"1", "2", "3", "4" },
-                {"5", "6", "7", "8" },
-                {"9", "10", "11", "12" },
-                {"13", "14", "15", "16" }
+        String[] words = {
+                "ten", "one", "two", "three", "four", "five",
+                "one", "two", "three", "four", "five", "ten"
         };
 
-        String[][] array4 = {
-                {"1", "2", "3", "4" },
-                {"5", "6", "7", "8" },
-                {"9", "10", "11", "12" },
-                {"13", "14", "i", "16" }
-        };
+        CollectionUtils.printUniqueWords(words);
 
+        CollectionUtils.countWordsInArray(words);
 
-        try {
-            ArrayUtils.checkArray(array1);
-        } catch (MyArraySizeException | MyArrayDataException e) {
-            e.printStackTrace(); // Wrong data in cell [0][0]
-        }
+        PhoneBook book = new PhoneBook();
 
-        try {
-            ArrayUtils.checkArray(array2);
-        } catch (MyArraySizeException | MyArrayDataException e) {
-            e.printStackTrace(); // Size of array must be 4x4
-        }
+        book.add("Tom", "+375 29 123 45 67");
+        book.add("Antony", "+375 29 765 43 21");
+        book.add("Tom", "+375 29 987 65 43");
+        book.add("John", "+375 29 321 45 67");
+        book.add("Antony", "+375 29 123 45 68");
 
-        try {
-            ArrayUtils.checkArray(array3);
-        } catch (MyArraySizeException | MyArrayDataException e) {
-            e.printStackTrace(); //Sum of elements 136
-        }
-
-        try {
-            ArrayUtils.checkArray(array4);
-        } catch (MyArraySizeException | MyArrayDataException e) {
-            e.printStackTrace(); //Wrong data in cell [3][2]
-        }
+        System.out.println("Tom "+ book.get("Tom"));
+        System.out.println("Antony " + book.get("Antony"));
+        System.out.println("John "+ book.get("John"));
+        System.out.println("Uncle Bob "+ book.get("Uncle Bob"));
     }
 }
-

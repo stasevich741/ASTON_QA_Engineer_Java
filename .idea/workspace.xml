@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="518eeea5-ef69-4408-9e11-127fb0155286" name="Changes" comment="class Employee and class Park wiwh inner class Attraction" />
+    <list default="true" id="518eeea5-ef69-4408-9e11-127fb0155286" name="Changes" comment="lesson 13">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/astondevs/aqa_course/first_task/CollectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/astondevs/aqa_course/second_task/PhoneBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/astondevs/aqa_course/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/astondevs/aqa_course/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/astondevs/aqa_course/exceptions/MyArrayDataException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/astondevs/aqa_course/exceptions/MyArraySizeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/astondevs/aqa_course/utils/ArrayUtils.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson_4" />
+        <entry key="$PROJECT_DIR$" value="Lesson_12" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,12 +46,12 @@
     &quot;assignee&quot;: &quot;stasevich741&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/stasevich741/ASTON_QA_Engineer_Java",
-    "accountId": "10193de5-7e70-45d1-865e-b2c04a09213a"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/stasevich741/aqa_course.git&quot;,
+    &quot;accountId&quot;: &quot;10193de5-7e70-45d1-865e-b2c04a09213a&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -57,18 +67,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Gradle.AquaProjects [:Main.main()].executor": "Run",
+    "Gradle.Build AquaProjects.executor": "Run",
+    "Gradle.Upgrade Gradle wrapper.executor": "Run",
     "Gradle.aqa_course [:Main.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Lesson__6",
+    "git-widget-placeholder": "Lesson__13",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.astondevs.aqa_course.Main" />
       <module name="aqa_course.test" />
       <extension name="coverage">
@@ -81,8 +99,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.astondevs.aqa_course.Main" />
+      <module name="aqa_course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.astondevs.aqa_course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -96,23 +130,6 @@
       <option name="presentableId" value="Default" />
       <updated>1716021246262</updated>
     </task>
-    <task id="LOCAL-00001" summary="class Employee and class Park wiwh inner class Attraction">
-      <option name="closed" value="true" />
-      <created>1716638876154</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1716638876154</updated>
-    </task>
-    <task id="LOCAL-00002" summary="class Employee and class Park wiwh inner class Attraction">
-      <option name="closed" value="true" />
-      <created>1716638983304</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1716638983304</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +147,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="class Employee and class Park wiwh inner class Attraction" />
-    <option name="LAST_COMMIT_MESSAGE" value="class Employee and class Park wiwh inner class Attraction" />
+    <MESSAGE value="lesson 12" />
+    <MESSAGE value="lesson 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 13" />
   </component>
 </project>
