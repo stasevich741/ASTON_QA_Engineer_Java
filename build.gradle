@@ -23,13 +23,10 @@ tasks.withType(JavaCompile) {
 dependencies {
     testImplementation('org.slf4j:slf4j-simple:2.0.7')
 
-    testImplementation group: 'org.testng', name: 'testng', version: '7.10.2'
-
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
 }
 
 test {
     useJUnitPlatform()
-    useTestNG()
 }
