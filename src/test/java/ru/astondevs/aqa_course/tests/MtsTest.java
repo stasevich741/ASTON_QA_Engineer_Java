@@ -46,7 +46,7 @@ public class MtsTest extends BaseTest {
 
         WebElement sumField = driver.findElement(By.id("connection-sum"));
         sumField.click();
-        sumField.sendKeys("1");
+        sumField.sendKeys("2");
         sumField.submit();
 
         WebElement paymentWindow = driver.findElement(By.xpath("//div[@class='card-page__card']"));
