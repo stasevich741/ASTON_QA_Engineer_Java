@@ -12,7 +12,7 @@ public class BaseTest {
 
     public static final String BASE_URL = "https://www.mts.by";
     public static final String MORE_ABOUT_SERVICE_URL = "https://www.mts.by/help/poryadok-oplaty-i-bezopasnost-internet-platezhey/";
-public static final String PHONE_NUMBER = "297777777";
+    public static final String PHONE_NUMBER = "297777777";
 
 
     @BeforeEach
@@ -21,7 +21,7 @@ public static final String PHONE_NUMBER = "297777777";
         openMainPage();
     }
 
-    public void openMainPage(){
+    public void openMainPage() {
         driver.get(BASE_URL);
         WebElement cookieAgreeButton = driver.findElement(By.id("cookie-agree"));
         cookieAgreeButton.click();
