@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 abstract public class BaseTest {
-    WebDriver driver;
+   protected WebDriver driver;
 
     public static final String BASE_URL = "https://www.mts.by";
     public static final String MORE_ABOUT_SERVICE_URL = "https://www.mts.by/help/poryadok-oplaty-i-bezopasnost-internet-platezhey/";
