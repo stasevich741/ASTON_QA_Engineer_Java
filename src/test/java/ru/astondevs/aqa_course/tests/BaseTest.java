@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class BaseTest {
+abstract public class BaseTest {
     WebDriver driver;
 
     public static final String BASE_URL = "https://www.mts.by";
