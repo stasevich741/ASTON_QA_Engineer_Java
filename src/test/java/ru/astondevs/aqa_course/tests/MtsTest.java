@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import java.time.Duration;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -36,5 +37,23 @@ public class MtsTest extends BaseTest {
 
         String href = serviceLink.getAttribute("href");
         assertEquals(MORE_ABOUT_SERVICE_URL, href);
+    }
+
+    @Test
+    @DisplayName("Заполнить поля и проверить работу кнопки «Продолжить»")
+    public void communicationServices() {
+        WebElement phoneField = driver.findElement(By.id("connection-phone"));
+        phoneField.click();
+        phoneField.sendKeys(PHONE_NUMBER);
+
+        WebElement sumField = driver.findElement(By.id("connection-sum"));
+        sumField.click();
+        sumField.sendKeys("1");
+        sumField.submit();
+
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+
+        WebElement paymentWindow = driver.findElement(By.xpath("//div[@class='card-page__card']"));
+        assertTrue(paymentWindow.isDisplayed());
     }
 }
