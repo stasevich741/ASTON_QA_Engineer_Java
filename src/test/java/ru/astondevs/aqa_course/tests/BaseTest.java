@@ -16,13 +16,12 @@ abstract public class BaseTest {
     public static final String MORE_ABOUT_SERVICE_URL = "https://www.mts.by/help/poryadok-oplaty-i-bezopasnost-internet-platezhey/";
     public static final String PHONE_NUMBER = "297777777";
 
-
     @BeforeEach
     public void setDriver() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(7));
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
         openMainPage();
     }
