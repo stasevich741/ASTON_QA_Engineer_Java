@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-import java.time.Duration;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -22,7 +21,7 @@ public class MtsTest extends BaseTest {
 
     @Test
     @DisplayName("Проверить наличие логотипов платёжных систем")
-    public void checkLogo() {
+    public void checkLogoTest() {
         List<WebElement> logoElements = driver.findElements(By.className("pay__partners"));
         for (WebElement logo : logoElements) {
             assertTrue(logo.isDisplayed());
@@ -31,17 +30,16 @@ public class MtsTest extends BaseTest {
 
     @Test
     @DisplayName("Проверить работу ссылки «Подробнее о сервисе»")
-    public void checkLink() {
+    public void checkServiceLinkTest() {
         WebElement serviceLink = driver.findElement(By.xpath("//a[text() = 'Подробнее о сервисе']"));
         serviceLink.click();
 
-        String href = serviceLink.getAttribute("href");
-        assertEquals(MORE_ABOUT_SERVICE_URL, href);
+        assertEquals(MORE_ABOUT_SERVICE_URL, driver.getCurrentUrl());
     }
 
     @Test
     @DisplayName("Заполнить поля и проверить работу кнопки «Продолжить»")
-    public void communicationServices() {
+    public void communicationServicesTest() {
         WebElement phoneField = driver.findElement(By.id("connection-phone"));
         phoneField.click();
         phoneField.sendKeys(PHONE_NUMBER);
@@ -50,8 +48,6 @@ public class MtsTest extends BaseTest {
         sumField.click();
         sumField.sendKeys("1");
         sumField.submit();
-
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
         WebElement paymentWindow = driver.findElement(By.xpath("//div[@class='card-page__card']"));
         assertTrue(paymentWindow.isDisplayed());

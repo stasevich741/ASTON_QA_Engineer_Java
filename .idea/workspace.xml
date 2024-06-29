@@ -83,6 +83,7 @@
     "Gradle.MtsTest.checkLink.executor": "Run",
     "Gradle.MtsTest.checkLogo.executor": "Run",
     "Gradle.MtsTest.communicationServices.executor": "Run",
+    "Gradle.MtsTest.communicationServicesTest.executor": "Run",
     "Gradle.MtsTest.executor": "Run",
     "Gradle.MtsTest.t.executor": "Run",
     "Gradle.MtsTest.test.executor": "Run",
@@ -103,7 +104,12 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.MtsTest.communicationServices">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.astondevs.aqa_course.core" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.MtsTest.communicationServicesTest">
     <configuration name="MtsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -152,6 +158,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="MtsTest.checkLogo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.astondevs.aqa_course.tests.MtsTest.checkLogo&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="MtsTest.communicationServices" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -176,7 +206,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MtsTest.t" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MtsTest.communicationServicesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -189,31 +219,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.astondevs.aqa_course.tests.MtsTest.t&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="MtsTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.astondevs.aqa_course.tests.MtsTest.test&quot;" />
+            <option value="&quot;ru.astondevs.aqa_course.tests.MtsTest.communicationServicesTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -226,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MtsTest.communicationServicesTest" />
+        <item itemvalue="Gradle.MtsTest" />
         <item itemvalue="Gradle.MtsTest.communicationServices" />
         <item itemvalue="Gradle.MtsTest.checkLink" />
-        <item itemvalue="Gradle.MtsTest" />
-        <item itemvalue="Gradle.MtsTest.t" />
-        <item itemvalue="Gradle.MtsTest.test" />
+        <item itemvalue="Gradle.MtsTest.checkLogo" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +337,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719668910506</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="lesson 15">
+      <option name="closed" value="true" />
+      <created>1719677325653</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719677325653</updated>
+    </task>
+    <task id="LOCAL-00013" summary="lesson 15">
+      <option name="closed" value="true" />
+      <created>1719677520918</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719677520918</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
