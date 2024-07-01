@@ -13,20 +13,22 @@ abstract public class BaseTest {
    protected WebDriver driver;
 
     public static final String BASE_URL = "https://www.mts.by";
-    public static final String MORE_ABOUT_SERVICE_URL = "https://www.mts.by/help/poryadok-oplaty-i-bezopasnost-internet-platezhey/";
-    public static final String PHONE_NUMBER = "297777777";
+    public static final String PHONE_NUMBER_FIELD = "connection-phone";
+    public static final String SUM_NUMBER_FIELD = "connection-sum";
+    public static final String DROPDOWN_BUTTON = "//button[contains(@class, 'select__header')]";
+    public static final String LIST_TO_SELECT = "//li[contains(@class, 'select__item')]";
 
     @BeforeEach
     public void setDriver() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         openMainPage();
     }
 
-    public void openMainPage() {
+    protected void openMainPage() {
         driver.get(BASE_URL);
         WebElement cookieAgreeButton = driver.findElement(By.id("cookie-agree"));
         cookieAgreeButton.click();

@@ -8,48 +8,82 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class MtsTest extends BaseTest {
 
     @Test
-    @DisplayName("проверка блока «Онлайн пополнение без комиссии»:")
-    public void checkElementNameTest() {
-        WebElement payWrapperElement = driver.findElement(By.xpath("//section[@class = 'pay']//h2"));
-        assertEquals("Онлайн пополнение" + "\n" + "без комиссии", payWrapperElement.getText());
-    }
-
-    @Test
-    @DisplayName("Проверить наличие логотипов платёжных систем")
-    public void checkLogoTest() {
-        List<WebElement> logoElements = driver.findElements(By.className("pay__partners"));
-        for (WebElement logo : logoElements) {
-            assertTrue(logo.isDisplayed());
-        }
-    }
-
-    @Test
-    @DisplayName("Проверить работу ссылки «Подробнее о сервисе»")
-    public void checkServiceLinkTest() {
-        WebElement serviceLink = driver.findElement(By.xpath("//a[text() = 'Подробнее о сервисе']"));
-        serviceLink.click();
-
-        assertEquals(MORE_ABOUT_SERVICE_URL, driver.getCurrentUrl());
-    }
-
-    @Test
-    @DisplayName("Заполнить поля и проверить работу кнопки «Продолжить»")
-    public void communicationServicesTest() {
-        WebElement phoneField = driver.findElement(By.id("connection-phone"));
+    @DisplayName("Проверить надписи в незаполненных полях : услуги связи")
+    public void checkTextInFieldCommunicationServicesTest() {
+        WebElement phoneField = driver.findElement(By.id(PHONE_NUMBER_FIELD));
         phoneField.click();
-        phoneField.sendKeys(PHONE_NUMBER);
+        phoneField.sendKeys("1");
 
-        WebElement sumField = driver.findElement(By.id("connection-sum"));
+        WebElement sumField = driver.findElement(By.id(SUM_NUMBER_FIELD));
         sumField.click();
         sumField.sendKeys("2");
         sumField.submit();
 
-        WebElement iframe = driver.findElement(By.xpath("//iframe[@class='bepaid-iframe']"));
-        assertTrue(iframe.isEnabled());
+        WebElement checkText = driver.findElement(By.xpath("//p[contains(text(), 'Номер телефона указан неверно')]"));
+
+        assertEquals("Номер телефона указан неверно", checkText.getText());
+    }
+
+    @Test
+    @DisplayName("Проверить надписи в незаполненных полях : домашний интернет")
+    public void checkTextInFieldHomeInternetTest() {
+        WebElement dropdownButton = driver.findElement(By.xpath(DROPDOWN_BUTTON));
+        dropdownButton.click();
+
+        List<WebElement> listItems = driver.findElements(By.xpath(LIST_TO_SELECT));
+        WebElement homeInternet = listItems.get(1);
+        homeInternet.click();
+
+        WebElement internetPhone = driver.findElement(By.id("internet-phone"));
+        internetPhone.sendKeys("1");
+        internetPhone.submit();
+
+        WebElement checkText = driver.findElement(By.xpath("//p[contains(text(), 'Необходимо указать номер в формате +375 00 ХХХ-ХХ-ХХ')]"));
+        assertEquals("Необходимо указать номер в формате +375 00 ХХХ-ХХ-ХХ", checkText.getText());
+    }
+
+    @Test
+    @DisplayName("Проверить надписи в незаполненных полях : рассрочка")
+    public void checkTextInFieldInstallmentPaymentTest() {
+        WebElement dropdownButton = driver.findElement(By.xpath(DROPDOWN_BUTTON));
+        dropdownButton.click();
+
+        List<WebElement> listItems = driver.findElements(By.xpath(LIST_TO_SELECT));
+        WebElement installmentPayment = listItems.get(2);
+        installmentPayment.click();
+
+        WebElement accountNumber = driver.findElement(By.id("score-instalment"));
+        accountNumber.sendKeys("1");
+        WebElement sumInput = driver.findElement(By.id("instalment-sum"));
+        sumInput.sendKeys("1");
+        sumInput.submit();
+
+        WebElement checkText = driver.findElement(By.xpath("//p[contains(text(), 'Введите корректный номер лицевого счета')]"));
+        assertEquals("Введите корректный номер лицевого счета", checkText.getText());
+    }
+
+    @Test
+    @DisplayName("Проверить надписи в незаполненных полях : задолженность")
+    public void checkTextInFieldDeptTest() {
+        WebElement dropdownButton = driver.findElement(By.xpath(DROPDOWN_BUTTON));
+        dropdownButton.click();
+
+        List<WebElement> listItems = driver.findElements(By.xpath(LIST_TO_SELECT));
+        WebElement dept = listItems.get(3);
+        dept.click();
+
+        WebElement accountNumber = driver.findElement(By.id("score-arrears"));
+        accountNumber.sendKeys("1");
+        WebElement sumInput = driver.findElement(By.id("arrears-sum"));
+        sumInput.sendKeys("1");
+        sumInput.submit();
+
+        WebElement checkText = driver.findElement(By.xpath("//p[contains(text(), 'Введите корректный номер лицевого счета')]"));
+        System.out.println(checkText.getText());
+        assertEquals("Введите корректный номер лицевого счета", checkText.getText());
     }
 }
