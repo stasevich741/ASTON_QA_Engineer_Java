@@ -24,6 +24,7 @@ abstract public class BaseTest {
 /**
  * не знал как лучше сделать, ожидаемые результаты для сравнений делать константами
  * или инициализировать их в самом тесте, поэтому сделал 2 варианта.
+ * подскажи в комментарии к заданию, как лучше делать.
  */
     protected static final String EXPECTED_PHONE_NUMBER = "Номер телефона";
     protected static final String EXPECTED_SUM = "Сумма";
@@ -31,7 +32,6 @@ abstract public class BaseTest {
     protected static final String EXPECTED_USER_NUMBER = "Номер абонента";
     protected static final String EXPECTED_ACCOUNT_NUMBER = "Номер счета на 44";
     protected static final String EXPECTED_DEBT_NUMBER = "Номер счета на 2073";
-
 
     @BeforeEach
     protected void setDriver() {
