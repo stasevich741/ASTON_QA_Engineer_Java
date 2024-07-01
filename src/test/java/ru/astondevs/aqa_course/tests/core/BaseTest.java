@@ -21,6 +21,10 @@ abstract public class BaseTest {
     protected static final String IFRAME_PAYMENT = "//iframe[@class='bepaid-iframe']";
     protected static final String BUTTON_DEPOSIT_XPATH = "//button[@type='submit' and @class='colored disabled' and (contains(text(), 'Оплатить') and contains(text(), 'BYN'))]";
 
+/**
+ * не знал как лучше сделать, ожидаемые результаты для сравнений делать константами
+ * или инициализировать их в самом тесте, поэтому сделал 2 варианта.
+ */
     protected static final String EXPECTED_PHONE_NUMBER = "Номер телефона";
     protected static final String EXPECTED_SUM = "Сумма";
     protected static final String EXPECTED_EMAIL_PAYCHECK = "E-mail для отправки чека";

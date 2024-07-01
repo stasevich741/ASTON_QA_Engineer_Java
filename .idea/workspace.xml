@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="518eeea5-ef69-4408-9e11-127fb0155286" name="Changes" comment="lesson 16">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/astondevs/aqa_course/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/astondevs/aqa_course/tests/core/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/astondevs/aqa_course/tests/MtsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/astondevs/aqa_course/tests/MtsOnlineReplenishmentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/astondevs/aqa_course/tests/MtsCommunicationServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/astondevs/aqa_course/tests/MtsCommunicationServicesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/astondevs/aqa_course/tests/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/astondevs/aqa_course/tests/core/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +79,12 @@
     "Gradle.FactorialCalculatorTest.executor": "Run",
     "Gradle.FactorialCalculatorTest.positiveFactorialTest.executor": "Run",
     "Gradle.FactorialCalculatorTest.throwIllegalArgumentFactorialTest.executor": "Run",
+    "Gradle.MtsCommunicationServicesTest.checkPaymentSystemIconsTest.executor": "Run",
     "Gradle.MtsCommunicationServicesTest.checkPhoneNumberIsCorrect.executor": "Run",
+    "Gradle.MtsCommunicationServicesTest.checkPhoneNumberIsCorrectTest.executor": "Run",
     "Gradle.MtsCommunicationServicesTest.checkSumIsCorrectTest.executor": "Run",
+    "Gradle.MtsCommunicationServicesTest.checkTextInBlankFieldsCardTest.executor": "Run",
+    "Gradle.MtsCommunicationServicesTest.executor": "Run",
     "Gradle.MtsOnlineReplenishmentTest.checkTextInFieldCommunicationServicesTest.executor": "Run",
     "Gradle.MtsOnlineReplenishmentTest.checkTextInFieldDebtTest.executor": "Run",
     "Gradle.MtsOnlineReplenishmentTest.checkTextInFieldDeptTest.executor": "Run",
@@ -122,8 +126,8 @@
       <recent name="ru.astondevs.aqa_course.core" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MtsOnlineReplenishmentTest">
-    <configuration name="MtsOnlineReplenishmentTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MtsCommunicationServicesTest">
+    <configuration name="MtsCommunicationServicesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -136,7 +140,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.astondevs.aqa_course.tests.MtsOnlineReplenishmentTest&quot;" />
+            <option value="&quot;ru.astondevs.aqa_course.tests.MtsCommunicationServicesTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -147,7 +151,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MtsOnlineReplenishmentTest.checkTextInFieldCommunicationServicesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MtsCommunicationServicesTest.checkPaymentSystemIconsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -160,7 +164,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.astondevs.aqa_course.tests.MtsOnlineReplenishmentTest.checkTextInFieldCommunicationServicesTest&quot;" />
+            <option value="&quot;ru.astondevs.aqa_course.tests.MtsCommunicationServicesTest.checkPaymentSystemIconsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -171,7 +175,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MtsOnlineReplenishmentTest.checkTextInFieldDebtTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MtsCommunicationServicesTest.checkPhoneNumberIsCorrect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -184,7 +188,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.astondevs.aqa_course.tests.MtsOnlineReplenishmentTest.checkTextInFieldDebtTest&quot;" />
+            <option value="&quot;ru.astondevs.aqa_course.tests.MtsCommunicationServicesTest.checkPhoneNumberIsCorrect&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -195,7 +199,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MtsOnlineReplenishmentTest.checkTextInFieldHomeInternetTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MtsCommunicationServicesTest.checkPhoneNumberIsCorrectTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -208,7 +212,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.astondevs.aqa_course.tests.MtsOnlineReplenishmentTest.checkTextInFieldHomeInternetTest&quot;" />
+            <option value="&quot;ru.astondevs.aqa_course.tests.MtsCommunicationServicesTest.checkPhoneNumberIsCorrectTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -219,7 +223,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MtsOnlineReplenishmentTest.checkTextInFieldInstallmentPaymentTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MtsCommunicationServicesTest.checkTextInBlankFieldsCardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -232,7 +236,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.astondevs.aqa_course.tests.MtsOnlineReplenishmentTest.checkTextInFieldInstallmentPaymentTest&quot;" />
+            <option value="&quot;ru.astondevs.aqa_course.tests.MtsCommunicationServicesTest.checkTextInBlankFieldsCardTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -245,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MtsOnlineReplenishmentTest" />
-        <item itemvalue="Gradle.MtsOnlineReplenishmentTest.checkTextInFieldDebtTest" />
-        <item itemvalue="Gradle.MtsOnlineReplenishmentTest.checkTextInFieldInstallmentPaymentTest" />
-        <item itemvalue="Gradle.MtsOnlineReplenishmentTest.checkTextInFieldHomeInternetTest" />
-        <item itemvalue="Gradle.MtsOnlineReplenishmentTest.checkTextInFieldCommunicationServicesTest" />
+        <item itemvalue="Gradle.MtsCommunicationServicesTest" />
+        <item itemvalue="Gradle.MtsCommunicationServicesTest.checkTextInBlankFieldsCardTest" />
+        <item itemvalue="Gradle.MtsCommunicationServicesTest.checkPhoneNumberIsCorrectTest" />
+        <item itemvalue="Gradle.MtsCommunicationServicesTest.checkPaymentSystemIconsTest" />
+        <item itemvalue="Gradle.MtsCommunicationServicesTest.checkPhoneNumberIsCorrect" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +402,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719832951434</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="lesson 16">
+      <option name="closed" value="true" />
+      <created>1719856598741</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1719856598741</updated>
+    </task>
+    <task id="LOCAL-00019" summary="lesson 16">
+      <option name="closed" value="true" />
+      <created>1719856623334</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1719856623334</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
